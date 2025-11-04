@@ -1,7 +1,11 @@
 import pyautogui, time
 
+
+
+#this version works for low lvl 90, macro.py for high one
+
 time.sleep(3)
-while(True):
+for i in range(10):
 
     pyautogui.moveTo(54, 552)
     pyautogui.mouseDown()
@@ -10,7 +14,7 @@ while(True):
     
     
     time.sleep(0.3)
-    pyautogui.moveTo(496, 566)  # 515, 374 without class A (low lvl 90)
+    pyautogui.moveTo(515, 374)  #496, 566  with class A (low lvl 90)
     time.sleep(0.3)
     pyautogui.mouseDown()
     pyautogui.click()

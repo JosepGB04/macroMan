@@ -10,10 +10,12 @@
 
 
 
+reminder for virtual environment : .\.venv\Scripts\Activate
+
 
 loop
 first pos = (54, 552) // open craft menu
-second pos = (515, 374) // select mission
+second pos = (515, 374) // select mission //if with class A 496, 566
 third pos = (1482, 956) // initiate mission ok
 fourth pos = (946, 627) // msg accept ok 
 fifth pos = (555, 266) // select item 1 
