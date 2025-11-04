@@ -1,0 +1,26 @@
+0,0       X increases -->
++---------------------------+
+|                           | Y increases
+|                           |     |
+|   1920 x 1080 screen      |     |
+|                           |     V
+|                           |
+|                           |
++---------------------------+ 1919, 1079
+
+
+first pos = (54, 552)
+
+loop
+second pos = (515, 374) // open craft menu
+third pos = (1482, 956) // choose mission
+fourth pos = (946, 627) // msg accept 
+fifth pos = (185, 482) // select item 1
+sixth pos = (926, 916) // craft all 
+//wait 2 mins 
+seventh pos = (208, 524) // select item 2
+eighth pos = (926, 916) // craft all
+//wait 2 mins
+
+
+// WORRIES: if windows go back to default spots, not saved
