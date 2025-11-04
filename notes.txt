@@ -9,18 +9,24 @@
 +---------------------------+ 1919, 1079
 
 
-first pos = (54, 552)
+
 
 loop
-second pos = (515, 374) // open craft menu
-third pos = (1482, 956) // choose mission
-fourth pos = (946, 627) // msg accept 
-fifth pos = (185, 482) // select item 1
-sixth pos = (926, 916) // craft all 
+first pos = (54, 552) // open craft menu
+second pos = (515, 374) // select mission
+third pos = (1482, 956) // initiate mission ok
+fourth pos = (946, 627) // msg accept ok 
+fifth pos = (555, 266) // select item 1 
+//clicks here 1230, 695
+sixth pos = (1300, 695) // craft all 
 //wait 2 mins 
-seventh pos = (208, 524) // select item 2
-eighth pos = (926, 916) // craft all
+seventh pos = (x, y) // select item 2
+eighth pos = (x, y) // craft all
 //wait 2 mins
-
+report = (274, 268) 
 
 // WORRIES: if windows go back to default spots, not saved
+
+
+
+plus button = 1230, 695
