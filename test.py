@@ -1,6 +1,5 @@
-import pyautogui, time
+import pyautogui, time, random
 
 
 
-pyautogui.moveTo(128, 285)
-pyautogui.click()
+print(random.randint(120,140))

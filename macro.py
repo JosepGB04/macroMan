@@ -1,4 +1,4 @@
-import pyautogui, time
+import pyautogui, time, random
 
 time.sleep(3)
 while(True):
@@ -61,7 +61,7 @@ while(True):
     time.sleep(0.5) 
     
 
-    time.sleep(140)
+    time.sleep(random.randint(120,140))
 
 
     pyautogui.moveTo(263, 266) 

@@ -1,11 +1,11 @@
-import pyautogui, time
+import pyautogui, time, random 
 
 
 
 #this version works for low lvl 90, macro.py for high one
 
 time.sleep(3)
-for i in range(10):
+while(True):
 
     pyautogui.moveTo(54, 552)
     pyautogui.mouseDown()
@@ -65,7 +65,7 @@ for i in range(10):
     time.sleep(0.5) 
     
 
-    time.sleep(140)
+    time.sleep(random.randint(120,140))
 
 
     pyautogui.moveTo(263, 266) 
