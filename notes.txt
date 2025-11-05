@@ -25,7 +25,7 @@ sixth pos = (1300, 695) // craft all
 seventh pos = (x, y) // select item 2
 eighth pos = (x, y) // craft all
 //wait 2 mins
-report = (274, 268) 
+report = (274, 268)  RGB REPORT (222, 161, 117)
 
 // WORRIES: if windows go back to default spots, not saved
 

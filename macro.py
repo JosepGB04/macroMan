@@ -61,7 +61,12 @@ while(True):
     time.sleep(0.5) 
     
 
-    time.sleep(random.randint(120,140))
+    # time.sleep(random.randint(120,140)) 
+    while(True):
+        if(pyautogui.pixel(274, 268) == (222, 161, 117)):
+            break
+        else: 
+            time.sleep(10)
 
 
     pyautogui.moveTo(263, 266) 
